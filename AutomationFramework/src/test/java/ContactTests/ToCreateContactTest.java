@@ -34,5 +34,6 @@ public class ToCreateContactTest extends BaseClass{
 		String name = cip.getContactHeader().getText();
 		Assert.assertTrue(name.contains(LASTNAME));
 		Reporter.log(name+" Added Successfully", true);
+		System.out.println("-------");
 	}
 }
